@@ -34,6 +34,7 @@ form{
 }
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 0px !important;
+    margin-top: 0px !important;
 }
 p{
     
@@ -50,6 +51,7 @@ p{
     height: 1240px;
     background-size: cover;
     overflow: hidden;
+    /*background-attachment: fixed;*/
 }
 .banner .top_header{
     overflow: hidden;
@@ -139,6 +141,7 @@ select {
 .banner .logo_nav{
     width: auto;
     padding-top: 20px;
+    height: 165px !important;
 }
 .banner .logo_nav .logo{
     width: auto;
@@ -172,9 +175,12 @@ select {
 
 /* search animation */
 
-.banner .banner_cap{
-    overflow: hidden;
-    padding-top: 290px;
+.banner .banner_cap {
+	overflow: hidden;
+	padding-top: 290px;
+	text-align: left;
+	position: absolute;
+	width: 100%;
 }
 .banner .banner_cap h1{
     font-size: 60px;
@@ -422,6 +428,7 @@ select {
 .tabs button:hover{
     background-color: #5ab147;
     color: #fff;
+    border: 0px;
 }
 .tabs button .in.active{
     background-color: #5ab147;
@@ -434,7 +441,7 @@ select {
 	width: 192px !important;
 	background-color: #fff !important;
 	margin-right: 22px;
-	padding: 8px 0px;
+	/*padding: 8px 0px;*/
 	text-align: center;
 	border: 0px;
 	max-height: 58px;
@@ -452,16 +459,24 @@ select {
 .our_products ul.nav-tabs li:nth-child(5n){
     border: 2px solid #ef5b80;
 }
+.our_products ul.nav-tabs li:hover:nth-child(2n){
+    border: 0px;
+    color: #fff !important;
+}
+.our_products ul.nav-tabs li:hover:nth-child(odd){
+    border: 0px;
+    color: #fff !important;
+}
 .our_products ul.nav-tabs li a {
 	color: #0036a0;
 	font-size: 16px;
 	font-weight: 700;
-	padding: 15px 0 !important;
-	height: 58px;
-	top: -8px;
+	padding: 18px 0 !important;
+    cursor: pointer !important;
 }
 .our_products ul.nav-tabs li:hover a {
 	background-color: #5ab147 !important;
+    color: #fff !important;
 	border: 0px !important;
 	border-radius: 0px !important;
 	margin: 0px !important;
@@ -549,8 +564,10 @@ select {
     width: 96%;
 }
 .our_products .pro_pic .product_des_right ul li h5{
+    font-size: 18px;
     text-align: left;
     padding-bottom: 7px;
+    font-family: 'Raspoutine DemiBold';
 }
 .our_products .pro_pic .product_des_right ul li p{
     text-align: left;
@@ -576,6 +593,7 @@ select {
 	display: table;
     cursor: pointer;
     text-transform: capitalize;
+    text-decoration: none !important;
 }
 .our_products .tab-content .pro_pic a.view_more:hover{
     background-color: #2ca8b4;

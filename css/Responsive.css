@@ -1,0 +1,263 @@
+@media only screen (min-width: 1920px) and (max-width: 2099px){
+    
+    
+}
+
+@media only screen and (min-width:1600px) and (max-width:1918px){
+    
+    
+}
+
+@media only screen and (min-width:1440px) and (max-width:1599px){
+    
+    
+}
+
+@media only screen and (min-width:1200px) and (max-width:1342px){
+    
+    /*** banner sec start ***/
+    
+    .banner{
+        height: 805px;
+    }
+    .banner .banner_cap{
+        padding-top: 75px;
+    }
+    
+    /*** banner sec end ***/
+    
+    /*** about_us sec start ***/
+    
+    .about_us ul li .left_pic_about{
+        background-size: auto 91%;
+    }
+    .about_us ul li:nth-child(2n) .left_pic_about{
+        background-size: auto 88%;
+    }
+    
+    /*** about_us sec end ***/
+    
+    /*** our products sec start ***/
+    
+    .our_products h2{
+        padding-top: 30%;
+    }
+    
+    /*** our products sec end ***/
+    
+}
+
+
+@media only screen and (min-width:960px) and (max-width:1199px){
+    
+    /*** banner sec start ***/
+    .banner{
+        height: 655px;
+    }
+    .tab{
+        padding-left: 0px;
+    }
+    #header .navMenu ul li{
+        padding: 19px 10px;
+    }
+    #header .navMenu ul li::after{
+        top: 28px;
+        right: -3px;
+    }
+    #header .navMenu ul li:last-child a{
+        padding-right: 15px;
+    }
+    .banner .logo_nav input[type="text"]{
+        padding: 20px 15px;
+    }
+    .banner .banner_cap{
+        padding-top: 0px;
+    }
+    .banner .banner_cap h1{
+        font-size: 45px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .banner .banner_cap p{
+        font-size: 13px;
+        line-height: 28px;
+        width: 53%;
+        padding-bottom: 30px;
+    }
+    .banner .banner_cap a.read_more{
+        padding: 15.5px 20px;
+    }
+    
+    /*** banner sec end ***/
+    
+    /*** about sec start ***/
+    
+    .about_us h2{
+        font-size: 45px;
+        padding-bottom: 40px;
+    }
+    .about_us p{
+        width: 80%;
+    }
+    .about_us ul li .left_pic_about{
+        background-size: 100%;
+    }
+    .about_us ul li .about_us_content h4{
+        font-size: 37px;
+        padding-bottom: 25px;
+    }
+    .about_us ul li .left_pic_about{
+        width: 40%;
+        background-size: 100%;
+        margin-right: 35px;
+        height: 604px;
+    }
+    .about_us ul li .about_us_content a.read_more{
+        padding: 15.5px 20px;
+    }
+    .about_us ul li .about_us_content{
+        padding-bottom: 0px;
+    }
+    .about_us ul li{
+        padding-bottom: 65px;
+    }
+    .about_us ul li:nth-child(2n) .left_pic_about{
+        width: 40%;
+        height: 440px;
+        margin-left: 35px;
+    }
+    
+    /*** about sec end ***/
+    
+    /*** our products sec start ***/
+    
+    .our_products h2{
+        font-size: 45px;
+    }
+    .our_products::after{
+        background-size: 70%;
+        background-repeat: no-repeat;
+        left: 17%;
+        top: 3%;
+    }
+    .our_products::before{
+        background-size: 70%;
+        background-repeat: no-repeat;
+        right: 7%;
+        bottom: 0%;
+    }
+    .our_products ul.nav-tabs li{
+        width: 122px !important;
+    }
+    .our_products p{
+        width: 100%;
+    }
+    .our_products .pro_pic{
+        background-image: none;
+    }
+    .our_products .pro_pic .product_des_left{
+        width: 100%;
+    }
+    .our_products .pro_pic .product_des_left ul li h5{
+        text-align: left;
+    }
+    .our_products .pro_pic .product_des_left ul li p{
+        text-align: left;
+    }
+    .our_products .pro_pic .product_des_right{
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .our_products .pro_pic .product_des_right ul li h5{
+        text-align: left;
+    }
+    .our_products .pro_pic .product_des_right ul li p{
+        text-align: left;
+    }
+    .our_products .pro_pic .product_des_right ul li:first-child{
+        margin-left: 0px;
+    }
+    .our_products .tab-content .pro_pic a.view_more{
+        padding: 15.5px 20px;
+    }
+    
+    /*** our products sec end ***/
+    
+    /*** WHO marketing sec start ***/
+    
+    .who{
+        padding-top: 80px;
+    }
+    .who h2{
+        font-size: 45px;
+    }
+    .who p{
+        padding-top: 0px;
+    }
+    .who a.read_more{
+        padding: 15.5px 20px;
+    }
+    
+    /*** WHO marketing sec end ***/
+    
+    /*** our blogs sec start ***/
+    
+    .blogs::before{
+        background-size: 70%;
+        background-repeat: no-repeat;
+        top: -4%;
+    }
+    .blogs h2{
+        font-size: 45px;
+    }
+    .blogs .big_blog .blog_left_big_pic{
+        height: 304px;
+    }
+    .blogs .big_blog .blog_left_big_pic img{
+        height: 100%;
+    }
+    .blogs .big_blog .blog_big_content h4{
+        padding:  20px 30px 20px 30px;
+        font-size: 19px;
+    }
+    .blogs .blog_right_small{
+        padding-left: 0px;
+    }
+    .blogs .blog_right_small ul li a h6{
+        font-size: 16px;
+    }
+    .blogs .blog_right_small ul li a p{
+        font-size: 13px;
+    }
+    .blogs a.view_more{
+        padding: 15.5px 20px;
+    }
+    
+    /*** our blogs sec end ***/
+    
+    /*** newsletter sec start ***/
+    
+    .newsletter h4{
+        text-align: center;
+        float: none;
+    }
+    .newsletter .subs_button{
+        float: none;
+        text-align: center;
+        margin-top: -42px;
+    }
+    .newsletter input[type="text"]{
+        float: none;
+        padding: 21px 0px 19px 27px;
+    }
+    .newsletter input[type="button"]{
+        float: none;
+        padding: 18px 44px;
+        margin-left: -13px;
+        margin-top: 42px;
+    }
+    
+    /*** newsletter sec end ***/
+    
+}
